@@ -11,7 +11,7 @@ function App() {
   return (
     <div className='main'>
       <img src={va} alt="" id="aparn"></img>
-      <span>Hii, I'm Aparn.</span>
+      <span>Hii, I'm Aparna.</span>
       {!speaking? 
       <button onClick={()=>{
         setPrompt("listening...")

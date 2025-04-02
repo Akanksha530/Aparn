@@ -56,8 +56,8 @@ function UserContext({children}) {
             setResponse(true)
         }
         else if(command.includes("what is your name")){
-            setPrompt("My name is Aparn.")
-            speak("My name is Aparn.")
+            setPrompt("My name is Aparna.")
+            speak("My name is Aparna.")
             setResponse(true)
         }
        else if(command.includes("open") && command.includes("google"))
